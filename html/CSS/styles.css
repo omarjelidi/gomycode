@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'robotoblack';
+  src: url('/fonts/roboto/roboto-black-webfont.woff2') format('woff2'),
+       url('/fonts/roboto/roboto-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'montserratthin_italic';
+  src: url('/fonts/montserrat/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+       url('/fonts/montserrat/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+#navbar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 7;
+  }   
+  #navbar #aa a {
+    float: left;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 1% 2%;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #navbar #aa #a1{margin-left:10% ;}
+#acc{margin-left: 15%;}
+#navbar a img {
+    position: relative;
+    margin-left: -62% ;
+    margin-top:0.3%;}
+#main{margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 10%;
+    }
+#navbar{position: fixed;}
+#Accueil p {margin-top: 1%;
+  margin-bottom: 20%;
+  font-size: 28px;
+  z-index: 1;}
+#Accueil #h11 {
+  margin-top: -46%;
+  font-family: robotoblack ;
+  font-size: 40px;
+  font-style: bold ;
+
+}
+
+#navbar #aa a:hover {
+    background: bisque;
+    color: white;
+  }
+#bgac {
+    border-radius: 30px;  
+    margin-left: -2%;
+    margin-top: 1%;
+    z-index: 1;
+  }
+#Accueil #cam {
+  position: relative;
+  margin-top: -500%;
+  margin-bottom: 30%;
+  margin-left: 65%;
+}
+#table{margin-top: -20%;
+width: 100%;}
+#table h1{
+  font-family: robotoblack ;
+  font-size: 40px;
+  margin-top: 20%;
+}
+#table table  {
+  border-collapse: collapse;
+  width: 90%;
+}
+#table table th {
+  width: 50%;
+  font-family: robotoblack ;
+}
+#table table td {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#travaux h1{ 
+  width: 50%;
+  font-family: robotoblack ;
+  margin-top: 5%;
+  font-size: 40px;
+}

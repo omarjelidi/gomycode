@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Document</title>
 </head>
 <body>
     <header> 
-        <nav>
-            
-            <p><a href="#Accueil"><img src="assets/Nouveau projet (1).png" ></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html"><b>Accueil</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#travaux"><b>Mes travaux</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#a propos"><b> A propos</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#CV"><b>CV</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#Accueil"><b>Contact</b></a></p>
-            <p><small>&nbsp;</small></p>
-        </nav>
+    <div id="navbar">
+    <div id="aa">
+        <a id="a1" href="#main">Accueil</a>
+        <a href="#travaux">Mes travaux</a><script></script>
+        <a href="#a_propos">A propos</a>
+        <a href="#CV">Mon CV</a>
+        <a href="#contact">Contact</a>
+    </div>
+        <a href="#Accueil"><img src="assets/Nouveau projet (1).png"></a>
+    </div>
     </header>
-    <main>
+    <main id="main">
+        <img id="bgac" src="assets/Nouveau projet (3).png">
         <div id="Accueil">
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <h1>Bienvenue !!!</h1>
-        <p>Bienvenue sur le portfolio de Omar , photographe spécialisé dans la capture d'instants magiques mettant en scène nos amis à quatre pattes !<br>Avec une passion inébranlable pour les animaux, je m'efforce de figer leur essence et leur beauté à travers l'objectif de mon appareil photo.<br>Que ce soit lors d'une balade au parc, d'une séance de jeu endiablée ou simplement lors de moments de complicité à la maison, chaque cliché <br> je capture est imprégné de l'amour que je porte à ces êtres merveilleux.Parcourez mon portfolio et laissez-vous transporter dans un univers où <br> la magie des animaux est immortalisée à jamais.</p>
-        <!-- espace pour le style -->
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
+            <h1 id="h11">Un photographe pas comme les autres </h1>
+            <p>&nbsp; <br> Bienvenue sur le portfolio de  adem , photographe <br> spécialisé dans la capture d'instants magiques mettant <br>en scène nos amis à quatre pattes ! Avec une passion <br> inébranlable pour les animaux,  je m'efforce de figer leur <br> essence et leur beauté à travers l'objectif de mon appareil <br>photo.Que ce soit lors d'une balade au parc, d'une séance <br>  de jeu endiablée ou simplement lors de moments   de <br> complicité à la maison, chaque cliché  je capture est <br>  imprégné de l'amour que je porte à ces êtres merveilleux. <br> Parcourez mon portfolio et laissez-vous transporter dans <br> un univers où la magie des animaux est immortalisée à jamais.</p>
+            <img src="assets/Nouveau projet (4).png" id="cam" alt="cam">
         </div>
+        <!-- tableau -->
         <div id="table">
-            <p>Quels mes expérience ?</p>
+            <h1>Quelles sont mes expériences ?</h1>
             <table border="1">
                 <tr>
                   <th>Experience </th>
@@ -40,7 +44,7 @@
                 </tr>
                 <tr>
                     <td>Revues et magazines animaliers</td>
-                    <td>1ans</td>
+                    <td >1ans</td>
                   </tr>
                   <tr>
                     <td>Sites web et blogs spécialisés dans les animaux</td>
@@ -48,60 +52,58 @@
                   </tr>
               </table>
         </div>
-        <!-- espace pour le style -->
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
         <!-- Section travail contient image et video -->
         <div id="travaux">
             <h1>Mes travaux :</h1>
-            <img src="assets/cat.jpg" alt="Un chat">
-            <img src="assets/dog.jpg" alt="Un chien">
-            <img src="assets/pigeon.jpg" alt="Un pigeon"><br>
-            <video width="675" height="500" autoplay>
-                <source src="assets/Vidéo de Chiens Trop drole et mignon - Compilation 2017 Funny animals.mp4" type="video/mp4" />
-                Please Check the video extension.
-            </video>
+            <img width="420"
+            height="315"src="assets/cat.jpg" alt="Un chat">
+            <img width="420"
+            height="315"src="assets/dog.jpg" alt="Un chien">
+            <img width="420"
+            height="315"src="assets/pigeon.jpg" alt="Un pigeon"><br>
+            <iframe
+	        width="1265"
+	    height="600"
+	    src="https://www.youtube.com/embed/b6tyNxChmW0?autoplay=1"
+             ></iframe>
 
         </div>
-        <!-- espace pour le style -->
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
-        <!-- Section travail contient image et video -->
-        <div id="a propos">
-            <p><small>&nbsp;</small></p>
-            <p><small>&nbsp;</small></p> 
-            <p><small>&nbsp;</small></p>
-            <p><small>&nbsp;</small></p> 
+        <!-- Section a propos -->
+        <div id="a_propos">
             <h1>A propos :</h1>
-            <p><small>&nbsp;</small></p>
-            <p>Je suis Omar, un photographe dévoué à capturer la beauté et l'essence de nos compagnons à quatre pattes.<br>Chaque clic de mon appareil photo vise à immortaliser des moments magiques, que ce soit lors de promenades en plein air, de jeux animés à la maison ou de moments de tendresse partagés.<br>Mon objectif est simple : créer des souvenirs inoubliables pour vous et vos fidèles amis.<br>Parcourez mes clichés et laissez-vous emporter par la joie et la complicité qui animent chaque image.</p>
-            <p><small>&nbsp;</small></p>
-            <p><small>&nbsp;</small></p> 
+            <p>Je suis  adem, un photographe dévoué à capturer la beauté et l'essence de nos compagnons à quatre pattes.<br>Chaque clic de mon appareil photo vise à immortaliser des moments magiques, que ce soit lors de promenades en plein air, de jeux animés à la maison ou de moments de tendresse partagés.<br>Mon objectif est simple : créer des souvenirs inoubliables pour vous et vos fidèles amis.<br>Parcourez mes clichés et laissez-vous emporter par la joie et la complicité qui animent chaque image.</p>
         </div>
-        <!-- espace pour le style -->
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
-        <p><small>&nbsp;</small></p>
-        <p><small>&nbsp;</small></p> 
-        <!-- Section travail contient image et video -->
+        <!-- Section cv -->
         <div id="CV">
             <h1>Mon cv :</h1>
-            <p>Pour acceder à mon cv clickez <a href="https://docs.google.com/document/d/1h1seZsiWvuAMnGAnZVcmHXWVqSao8SGBzk_-zBNkMcg/edit?usp=sharing">ici</a></p></div>
-            </main>4<div id="CV"></div>
+            <p>Pour acceder à mon cv cliquez <a href="https://docs.google.com/document/d/1h1seZsiWvuAMnGAnZVcmHXWVqSao8SGBzk_-zBNkMcg/edit?usp=sharing">ici</a></p></div>
+            <div id="CV"></div>
+        <!-- Section contact -->
+        <div id="contact">    
+            <div id="654"></div>
+            <h1>Prendre un rendez vous :</h1>
+            <form>
+            <label>Nom:</label>
+            <input type="text" name="first name" placeholder="Votre Nom" />
+            <br />
+      
+            <label>Numéro:</label>
+            <input type="number" name="Numéro" value="98******" />
+            <br />
+      
+            <label>Date du rendez vous:</label>
+            <input type="date" name="date du rendez vous" />
+            <br />
+      
+            <label>Motif:</label>
+            <input type="name" name="Motif" />
+            <br />
+      
+            <input type="submit" value="Confirmer" />
+          </form></div>
+    </main>
     <footer>
-
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;Numéro:&nbsp;&nbsp;&nbsp;98****** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Email:azerty@gmail.com</p>
     </footer>
 </body>
 </html>
