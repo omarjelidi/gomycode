@@ -88,12 +88,77 @@ width: 100%;}
   width: 50%;
   font-family: robotoblack ;
 }
-#table table td {
+#table table tr .td1 {
   font-family: Arial, Helvetica, sans-serif;
+  height: 20%;
+  text-align: center;
+}
+#table table tr .td {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 20%;
 }
 #travaux h1{ 
   width: 50%;
   font-family: robotoblack ;
   margin-top: 5%;
-  font-size: 40px;
+  font-size: 40px;  
 }
+#a_propos h1{
+  font-family: robotoblack ;
+  font-size: 40px;
+  margin-top: -20%;
+
+}
+#a_propos img{margin-top: -15%;
+margin-left:15% ;}
+#a_propos p{margin-top: 1%;
+  margin-bottom: 20%;
+  font-size: 25px;
+  z-index: 1;}
+  #CV h1 {  font-family: robotoblack ;
+    font-size: 40px;
+    margin-top: -40%;}
+  #CV p{ margin-top: 5%;
+    margin-bottom: 20%;
+    font-size: 28px;
+    z-index: 1; }
+  #CV img{
+    margin-top: -30%;
+  }
+  #contact h1 {
+    font-family: robotoblack ;
+    font-size: 40px;
+  }
+  #contact form label {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;  
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-top: 2%;
+}
+.button-34:hover{
+  background:#ffffff ;
+  color:#5E5DF0 ;
+} 
+footer{margin-left: 35%;}
+footer p {font-family: Arial, Helvetica, sans-serif;}
